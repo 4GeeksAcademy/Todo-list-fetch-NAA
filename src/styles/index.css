@@ -1,11 +1,99 @@
-/* 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-*/
+body {
+    background-image: url('../img/Notebook.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+form {
+    width: 100%;
+    max-width: 100%;
+    
+    
+}
+
+.title {
+    font-size: 5rem;
+    color: rgb(130, 41, 41);
+    font-weight: 1000;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.card {
+    width: 1000px;
+    border-radius: 10px;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+        url('../img/Paper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+input[type="text" ] {
+    font-size: 3rem;
+    border-radius: 10px;
+    width: 1000px;
+    padding: 1%;
+    border: none;
+    outline: none;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+  color: rgb(130, 41, 41);
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+        url('../img/Paper.jpg') no-repeat center center fixed;
+    background-size: cover
+}
+
+input::placeholder {
+    color: rgb(130, 41, 41);
+    font-weight: 1000;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    
+  }
+
+.listformat {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: .5rem;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    justify-content: space-between;
+    
+}
+
+/* .btn-close:hover {
+    filter: invert(22%) sepia(90%) saturate(7461%) hue-rotate(356deg) brightness(88%) contrast(117%);
+    
+  } */
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-close:hover {
+    background-color: rgb(130, 41, 41);
+    border-radius: 50%;
+}
+  
+.contador{
+    color: rgb(130, 41, 41);
+}
